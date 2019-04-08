@@ -22,6 +22,11 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log("Relationale Operatoren: >" + (3>4));
 		Debug.Log("Relationale Operatoren: >= " + (3>=4));
 
+		//Gleichheits Operatoren 
+		Debug.Log("Gleichheits Operatoren: ==" + (5==5));
+		Debug.Log("Gleichheits Operatoren: !=" + (5!=5));
+
+
 	}
 	
 	// Update is called once per frame
