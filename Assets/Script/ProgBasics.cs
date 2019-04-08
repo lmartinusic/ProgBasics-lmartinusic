@@ -16,6 +16,12 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log("Additive Operatoren: + " + (3+4));
 		Debug.Log("Additive Operatoren: - " + (8-4));
 
+		//Relationale Operatoren 
+		Debug.Log("Relationale Operatoren: < " + (3<4));
+		Debug.Log("Relationale Operatoren: <= " + (3<=4));
+		Debug.Log("Relationale Operatoren: >" + (3>4));
+		Debug.Log("Relationale Operatoren: >= " + (3>=4));
+
 	}
 	
 	// Update is called once per frame
