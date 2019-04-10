@@ -2,10 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProgBasics : MonoBehaviour {
+public class ProgBasics : MonoBehaviour 
+{
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+		Operators();
+		hello();
+		bye();
+	}
+
+	public void Operators()
+	{
 
 		// Multiplikative Operatoren
 		Debug.Log("Multiplikative Operatoren: * " + (3*4));
@@ -32,10 +41,28 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log("Logische Operatoren: ^" + (3^5));
 
 
+		
+	}
+
+	public void XY()
+	{
+		
+	}
+
+	public void hello()
+	{
+		Debug.Log("Addieren: +" + (8+5));
+	}
+
+	
+	public void bye()
+	{
+		Debug.Log("Multiplizieren: *" + (5*5));
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
 	}
 }
