@@ -2,14 +2,14 @@
 # ProgBasics-lmartinusic
 
 
-Progress: 100%
+<h5>Progress:</h5> 100%
 
-Development Platform
--OS: macOS Mojave Version 10.14.3
--Unity: Version 2018.2.14f1
--Visual Studio Code: Version 1.33.0 
--Scripting Runtime Version: .NET 3.5 Equivalen
--API Compatibility Level: .NET 2.0 Subs
+<h5>Development Platform</h5>
+<p>-OS: macOS Mojave Version 10.14.3</p>
+<p>-Unity: Version 2018.2.14f1</p>
+<p>-Visual Studio Code: Version 1.33.0 </p>
+<p>-Scripting Runtime Version: .NET 3.5 Equivalen</p>
+<p>-API Compatibility Level: .NET 2.0 Subs</p>
 
 Erste Tests mit Operatoren
 Mit Debug.Log in einem C# Script wurden diverse Multiplikative, Additive, Relationale, Gleichheits und Logische Operatoren in die Unity Console geprintet.
