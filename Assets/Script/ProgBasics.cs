@@ -18,6 +18,7 @@ public class ProgBasics : MonoBehaviour {
 		// add values for parameters
 		AddNumbers (5, 3);
 		MultNumbers (4, 2, 3, 8);
+		SameNumbers (5, 5);
 		love (4, 5);
 
 		// combine all methodes
@@ -27,6 +28,11 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log (MyText ("lmartinusic"));
 		string drama = MyText ("lmartinusic");
 		Debug.Log ("neu " + drama);
+
+		//run value
+		Debug.Log (billie ("lmartinusic"));
+		string eilish = billie ("lmartinusic");
+		Debug.Log ("country " + eilish);
 	}
 
 	// Methode Operatoren
@@ -49,7 +55,7 @@ public class ProgBasics : MonoBehaviour {
 
 		//Gleichheits Operatoren 
 		Debug.Log ("Gleichheits Operatoren: ==" + (5 == 5));
-		7
+
 		Debug.Log ("Gleichheits Operatoren: !=" + (5 != 5));
 
 		//Logische Operatoren   
@@ -81,6 +87,12 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log ("multiply numbers = " + e);
 	}
 
+	public void SameNumbers (int a, int b) {
+
+		bool c = a == b;
+		Debug.Log ("same numbers = " + c);
+	}
+
 	// combines all methodes
 	public void Combine () {
 		AddNumbers (7, 2);
@@ -92,7 +104,10 @@ public class ProgBasics : MonoBehaviour {
 		return "Drama" + " " + myName;
 	}
 
-	public
+	public string billie (string eilish) {
+		//run the return after commiting the variable billie
+		return "happy" + " " + eilish;
+	}
 
 	//Restzahl der beiden Operanden berechnen
 	public void love (int a, int b) {
