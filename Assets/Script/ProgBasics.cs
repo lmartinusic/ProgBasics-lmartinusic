@@ -14,6 +14,8 @@ public class ProgBasics : MonoBehaviour {
 
 		Operators ();
 		VoidMethod ();
+		hello ();
+		ocean ();
 
 		// add values for parameters
 		AddNumbers (5, 3);
@@ -67,7 +69,11 @@ public class ProgBasics : MonoBehaviour {
 	}
 
 	public void hello () {
-		Debug.Log ("Addieren: +" + (8 + 5));
+		Debug.Log ("Addieren ist: +" + (8 + 5));
+	}
+
+	public void ocean () {
+		Debug.Log ("Multiplizieren ist: +" + (8 * 5));
 	}
 
 	public void VoidMethod () {
